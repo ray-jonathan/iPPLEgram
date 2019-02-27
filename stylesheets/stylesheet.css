@@ -6,3 +6,12 @@ html, body {
     width: 100%;
 }
 
+.picture-frame {
+    width: 150px;
+    /* display: inline-block; */
+    
+}
+
+.picture-frame img {
+    width: 100%;
+}
