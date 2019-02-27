@@ -1,1 +1,8 @@
 /* The Styles for iPPLEgram */
+/* Did you remember to grab Paul Irish's Box css? */
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
