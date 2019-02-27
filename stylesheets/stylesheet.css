@@ -7,11 +7,27 @@ html, body {
 }
 
 .picture-frame {
-    width: 150px;
-    /* display: inline-block; */
-    
+    padding: 8px;
+    width: 80%;
+
+
 }
 
 .picture-frame img {
     width: 100%;
+}    
+
+.test{
+    display: flex;
+    justify-content: center;
+}
+
+.bucket {
+    min-width: 200px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
