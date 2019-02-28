@@ -13,4 +13,8 @@ function respondToClick() {
     console.log("ehh");
 }
 
-targetElements[0].addEventListener("click", respondToClick);
+function attachClickHandler(oneElement) {
+    oneElement.addEventListener("click", respondToClick);
+}
+
+targetElements.forEach(attachClickHandler);
