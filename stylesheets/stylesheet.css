@@ -42,6 +42,10 @@ html, body {
     transform: scale(1.10);
 }
 
+.picture-frame.big img {
+    transform: scale(2.5);
+}
+
 @media screen and (min-width: 400px) {
     body {
         /* background: violet; */

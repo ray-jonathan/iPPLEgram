@@ -7,10 +7,13 @@ const targetElements = document.querySelectorAll("[data-target]"); // a `const` 
 // image inside the .picture-frame
 
 
-function respondToClick() {
-    console.log("hello");
-    console.log("whats good b");
-    console.log("ehh");
+function respondToClick(event) {
+
+    console.log(event.target.parentElement);
+
+    // add the "big" class to the thing
+    // that got clicked
+    event.target.parentElement.classList.add('big');
 }
 
 function attachClickHandler(oneElement) {
