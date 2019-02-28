@@ -13,7 +13,7 @@ function respondToClick(event) {
 
     // add the "big" class to the thing
     // that got clicked
-    event.target.parentElement.classList.add('big');
+    event.target.parentElement.classList.toggle('big');
 }
 
 function attachClickHandler(oneElement) {
