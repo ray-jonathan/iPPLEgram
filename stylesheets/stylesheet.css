@@ -9,8 +9,7 @@ html, body {
 .picture-frame {
     padding: 8px;
     width: 80%;
-
-
+    opacity: 0.9;
 }
 
 .picture-frame img {
@@ -29,6 +28,17 @@ html, body {
     justify-content: flex-start;
     align-items: center;
     /* flex-wrap: wrap; */
+}
+
+/* Using the :hover pseudo class, outline the frame */
+.picture-frame:hover {
+    outline: 4px solid gray;
+    opacity: 1.0;
+}
+
+/* Using the :hover pseudo class, scale the image up */
+.picture-frame:hover img {
+    transform: scale(1.10);
 }
 
 @media screen and (min-width: 400px) {
